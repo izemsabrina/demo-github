@@ -3,3 +3,4 @@ il estxist de nombreux outil pour réliser les commendes en faisant click
 guit=> graphiczl user interface
 cli=> commande line inteerface
 =>directement dans visual studio vous pouvez réaliser toutes les commandes sans savoir a ecrire les commandes
+fit commit

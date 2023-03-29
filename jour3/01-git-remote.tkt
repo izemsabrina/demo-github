@@ -1,8 +1,77 @@
-commande qui permet d'etablir le liee avec un depot distant
+git remote => établir un lien avec un dépôt distant 
 
 
+il est possible d'avoir PLUSIEURS remote 
+git remote add origin <url> Bitbucket
+git remote add gitlab <url> GitLab
+git remote add github <url> Github
 
-git remote add origin <url>
-git remote add gitlab <url> gitlab
-git remote github <url> github
+il est possible de les supprimer 
 
+git remote remove origin 
+git remote remove github 
+
+je veux connaître la liste des remote à disposition 
+
+git remote 
+
+git remote -v 
+git remote --verbose
+
+https://webdevproformation@bitbucket.org/formationwebdevpro/git-d-mars-2023.git
+
+créer un lien factice 
+
+git remote add toto http://exemple.com
+
+git remote -v
+
+git remote remove toto # suppression
+
+------------------
+
+git log => journal historique de tous les commits réalisés 
+
+=> cas pratique 
+=> ajouter un nouveau remote dans votre projet (de votre choix)
+=> lister et le supprimer 
+
+correction de l'exo !
+
+git remote add exemple https://blabla.com 
+git remote --verbose
+git remote remove exemple
+git remote --verbose
+
+
+----------------------
+
+si vous avez un seul remote => 
+
+git push (il va rajouter automatiquement) origin main 
+
+----------------------
+
+si vous avez PLUSIEURS remote 
+
+git push github main 
+
+---------------------
+
+cas pratique => 
+1 créer un compte utilisateur sur github.com
+2 .... create repository 
+3 remplir le formulaire (nom)
+4 git remote add github https://github.com/webdevproformation/demo-github.git
+
+git push -u github main
+
+------------------------------------
+
+=> récupérer des informations depuis un projet distant 
+
+git add --all 
+git add -A
+git add *
+
+git add . 

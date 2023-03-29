@@ -75,3 +75,8 @@ git add -A
 git add *
 
 git add . 
+
+git push github main
+git fetch github master
+git merge github/master
+

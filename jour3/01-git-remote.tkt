@@ -1,0 +1,8 @@
+commande qui permet d'etablir le liee avec un depot distant
+
+
+
+git remote add origin <url>
+git remote add gitlab <url> gitlab
+git remote github <url> github
+

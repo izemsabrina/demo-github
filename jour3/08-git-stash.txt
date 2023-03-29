@@ -35,3 +35,5 @@ merge et supprimer la branch exo4git
 fonction a (){
     
 }
+const a=20
+const b=30
